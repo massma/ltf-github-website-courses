@@ -14,7 +14,7 @@ Attendees will learn:
 -   How to use Git to manage projects.
 -   How to publish a website using Github.
 -   How to manage content with simple Markdown text files.
--   How simple text files and git ease collaboration and
+-   How simple text files and Git ease collaboration and
     rapid development.
 -   How we can automatically generate websites, documents and
     presentations from simple text files.
@@ -29,7 +29,7 @@ Lectures and slides
     collaborate and update content.
 -   [Using pandoc to automatically generate websites, presentations, and
     notes](lectures/pandoc-website/generate-materials.html) : convert
-    simple, portable, and accessible text formats to
+    simple, portable, and accessible text formats like Markdown to
     "prettier" representations.
 
 Instructions for contributing
@@ -82,13 +82,13 @@ Resources
     Microsoft's Github. A (possibly biased) comparison with Github is
     available on [Gitlab's
     website](https://about.gitlab.com/devops-tools/github-vs-gitlab.html).
--   [Shake Build](https://shakebuild.com/) : an alternative to Make with
-    a little bit more of a learning curve but with more features and the
-    benefits of access to a full programming language in Haskell.
-    I (Adam) use this primarily, mostly because I use Haskell primarily.
-    Many other languages also have build systems, and it can be
-    beneficial to use a build system embedded in the language you
-    prefer (e.g. [SCons](https://scons.org/) in Python,
+-   [Shake](https://shakebuild.com/) : an alternative build system to
+    Make with a little bit more of a learning curve but with more
+    features and the benefits of access to a full programming language
+    in Haskell. I (Adam) use this primarily, mostly because I use
+    Haskell primarily. Many other languages also have build systems, and
+    it can be beneficial to use a build system embedded in the language
+    you prefer (e.g. [SCons](https://scons.org/) in Python,
     [Rake](https://ruby.github.io/rake/) in Ruby).
 -   [Org mode](https://orgmode.org/) - an alternative to Markdown with
     advanced personal organizational tools integrated into the Emacs

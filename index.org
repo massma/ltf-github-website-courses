@@ -12,7 +12,7 @@ Attendees will learn:
     - How to use Git to manage projects.
     - How to publish a website using Github.
     - How to manage content with simple Markdown text files.
-    - How simple text files and git ease collaboration and rapid
+    - How simple text files and Git ease collaboration and rapid
       development.
     - How we can automatically generate websites, documents and
       presentations from simple text files.
@@ -25,7 +25,7 @@ Attendees will learn:
      content.
    - [[file:lectures/pandoc-website/generate-materials.html][Using pandoc to automatically generate websites, presentations,
      and notes]] : convert simple, portable, and accessible text formats
-     to "prettier" representations.
+     like Markdown to "prettier" representations.
 
 ** Instructions for contributing
    Only modify the markdown (~.md~) files, not the html or any other
@@ -66,13 +66,13 @@ Attendees will learn:
 
     - [[https://about.gitlab.com/][Gitlab]] : an alternative to Microsoft's Github. A (possibly
       biased) comparison with Github is available on [[https://about.gitlab.com/devops-tools/github-vs-gitlab.html][Gitlab's website]].
-    - [[https://shakebuild.com/][Shake Build]] : an alternative to Make with a little bit more of a
-      learning curve but with more features and the benefits of access
-      to a full programming language in Haskell. I (Adam) use this
-      primarily, mostly because I use Haskell primarily. Many other
-      languages also have build systems, and it can be beneficial to
-      use a build system embedded in the language you prefer
-      (e.g. [[https://scons.org/][SCons]] in Python, [[https://ruby.github.io/rake/][Rake]] in Ruby).
+    - [[https://shakebuild.com/][Shake]] : an alternative build system to Make with a little bit
+      more of a learning curve but with more features and the benefits
+      of access to a full programming language in Haskell. I (Adam)
+      use this primarily, mostly because I use Haskell primarily. Many
+      other languages also have build systems, and it can be
+      beneficial to use a build system embedded in the language you
+      prefer (e.g. [[https://scons.org/][SCons]] in Python, [[https://ruby.github.io/rake/][Rake]] in Ruby).
     - [[https://orgmode.org/][Org mode]] - an alternative to Markdown with advanced personal
       organizational tools integrated into the Emacs text editor.
 
