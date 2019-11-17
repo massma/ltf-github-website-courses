@@ -1,5 +1,5 @@
-Useful resources for Earth and Environmental Engineering Graduate students
-==========================================================================
+Useful resources for Earth and Environmental Engineering students
+=================================================================
 
 Ph.D. Program
 -------------

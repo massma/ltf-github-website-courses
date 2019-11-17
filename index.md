@@ -73,9 +73,13 @@ Resources
 Tutorials
 ---------
 
+-   [Github guides](https://guides.github.com/) - collection of useful
+    guides, some of which linked below.
 -   [Github Hello
     World](https://guides.github.com/activities/hello-world/) :
     introduction to Github, and no text editor even required!
+-   [Mastering Markdown](https://guides.github.com/) : Github
+    introduction to Markdown format.
 -   [Git tutorial](https://git-scm.com/docs/gittutorial) : in depth
     introduction to Git
 -   [Pandoc Getting Started](https://pandoc.org/getting-started.html) :
@@ -104,6 +108,7 @@ Attendees
 ---------
 
 -   Adam Massmann (akm2203) : organizer
+-   put your name and uni here
 
 The [Center for Teaching and learning](https://ctl.columbia.edu/) (CTL) and this workshop
 -----------------------------------------------------------------------------------------

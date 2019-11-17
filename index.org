@@ -58,8 +58,11 @@
 
 ** Tutorials
 
+   - [[https://guides.github.com/][Github guides]] - collection of useful guides, some of which linked
+     below.
    - [[https://guides.github.com/activities/hello-world/][Github Hello World]] : introduction to Github, and no text editor
      even required!
+   - [[https://guides.github.com/][Mastering Markdown]] : Github introduction to Markdown format.
    - [[https://git-scm.com/docs/gittutorial][Git tutorial]] : in depth introduction to Git
    - [[https://pandoc.org/getting-started.html][Pandoc Getting Started]] : very thorough and accessible
      introduction to using Pandoc.

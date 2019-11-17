@@ -1,52 +1,125 @@
 Git for course deployment (Fall 2019)
 =====================================
 
-Introductions (5 min)
----------------------
+Learning objectives
+-------------------
 
-everyone introduces themselves, just says what there teaching and
-research interests are, and their background with git and/or website
-development.
+-   How to use Git to manage projects.
+-   How to publish a website using Github.
+-   How to manage content with simple markdown text files.
+-   How simple text files and git ease collaboration and
+    rapid development.
+-   How we can automatically generate websites, documents and
+    presentations from simple text files.
+-   The pros and cons of using Git as a tool to manage, organize, and
+    collaborate on the deployment of courses.
 
-present some data from survey, and pair up people into
-experience-inexperienced pairs (preferably matched with same text
-editor/os).
+Introductions
+-------------
 
-Introduce git and github (5 min)
---------------------------------
+Please introduce yourself to the person sitting next to you, sharing
+your position and area of study or research.
 
-Present learning objectives and introduce git and github.
+Then we will go around the room and each person will introduce the
+person next to them.
 
-split off and install git (10 min)
-----------------------------------
+Sign up for Github
+------------------
 
-Then split off and have everyone install git, make sure it is working,
-sign up for github, and clone the course repository.
+Please make an account at <https://github.com/>.
 
-Lots of this will be done with pairs, but we can bring back into
-discussions at table and with the whole group depending on how much
-trouble people have (hopefully it goes smooth and no need to have a lot
-of discussion).
+Install Git
+-----------
 
-tell students to take notes on anything that was confusing (we will use
-this later)
+### Git for Windows
 
-<https://guides.github.com/activities/hello-world/>
+-   <https://gitforwindows.org/>
 
-Present github features (5 min)
--------------------------------
+### Git for Mac
 
-pull requests, issues.
+-   With homebrew: `brew install git`
+-   Or with MacPorts: `sudo port install git +svn +doc
+     +bash_completion +gitweb`
+-   Or with the Git installer (if you don't have homebrew or MacPorts
+    already installed): <https://git-scm.com/download/mac>
 
-discuss github features (10 min)
---------------------------------
+### Third option: do everything on the cloud with Github
 
-have a think-pair-share about how these github features can be used in a
-course setting, even though they were developed primarily for software
-development.
+-   You can still participate in the workshop without Git installed, but
+    I recommend installing it for future use.
 
-interactive activity (15 min)
------------------------------
+-   If you prefer this option, here are instricutions to make edits
+    directly on Github:
 
-tell students to work in pairs in order to either change the course
-materials, or open an issue with their comments.
+    -   <https://guides.github.com/activities/hello-world/>
+
+What are Git and Github
+-----------------------
+
+-   Git was created for collaborative software development. It tracks
+    all changes made to files, and can merge changes made separately by
+    different people.
+-   Github is a web platform made by Microsoft that hosts Git projects
+    and provides complementary tools.
+
+![](https://i.imgur.com/mNfax2z.png)
+------------------------------------
+
+Git steps in command form
+-------------------------
+
+-   `git add <filename>` : stage a file to be commited
+-   `git commit` : make a commit with a message
+-   `git push` : push your changes to remote repository (backup)
+
+Github features
+---------------
+
+<https://github.com/massma/ltf-github-website-courses>
+
+How can these features be useful for deploying and organizing materials?
+------------------------------------------------------------------------
+
+-   take a moment to write a few thoughts down on your own, in your text
+    editor or on scrap paper (1 min)
+-   share your thoughts with the person next to you (3 min)
+-   group discussion (3-5 min)
+
+Let's collaborate on this workshop.
+-----------------------------------
+
+-   fork the
+    [repository](https://github.com/massma/ltf-github-website-courses).
+-   enable github pages
+-   on your version of the repository, edit workshop files (\*.md) to
+    improve the workshop on Github, and/or
+    -   submit an issue
+    -   clone the repository locally and edit with the text editor of
+        your choice (recommeneded if you anticipate using these tools
+        a lot)
+
+Ideas for contributions
+-----------------------
+
+-   add your name and uni to the attendees section of the website
+    landing
+-   improve any errors or confusing spots in the slides
+-   open an issue if something was confusing but you do not know how to
+    fix it.
+-   open an issue for any questions you have
+-   add content to the main website
+    (<https://massma.github.io/ltf-github-website-courses/>)
+-   add content to some ideas for future collaborative webites:
+    -   EEAE student department website:
+
+    <https://massma.github.io/ltf-github-website-courses/sample-websites/eeae-student-resources.html>
+    -   Dynamic (e.g. easier to update) water center website:
+        <https://massma.github.io/ltf-github-website-courses/sample-websites/water-center-resources.html>
+
+Let's merge our changes
+-----------------------
+
+-   Submit a pull request to my original repository, which will request
+    to add your changes.
+-   I will then re-generate content with pandoc (next presentation)
+

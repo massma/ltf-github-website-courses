@@ -12,5 +12,8 @@ index.html : index.md
 index.md : index.org
 	pandoc -o index.md --from org --to markdown index.org
 
+readme.md : readme.org
+	pandoc -o readme.md --from org --to markdown readme.org
+
 clean :
 	rm -f index.html

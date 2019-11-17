@@ -77,8 +77,33 @@
 
 ** Let's collaborate on this workshop.
 
-    - fork the repository
+    - fork the [[https://github.com/massma/ltf-github-website-courses][repository]].
     - enable github pages
-    - edit workshop files (*.md) to improve the workshop on Github, or
+    - on your version of the repository, edit workshop files (*.md) to
+      improve the workshop on Github, and/or
        - submit an issue
-       - clone the repository locally and edit with the text editor of your choice (recommeneded if you anticipate using these tools a lot)
+       - clone the repository locally and edit with the text editor of
+         your choice (recommeneded if you anticipate using these tools
+         a lot)
+
+** Ideas for contributions
+
+   - add your name and uni to the attendees section of the
+     website landing
+   - improve any errors or confusing spots in the slides
+   - open an issue if something was confusing but you do not know how
+     to fix it.
+   - open an issue for any questions you have
+   - add content to the main website
+     (https://massma.github.io/ltf-github-website-courses/)
+   - add content to some ideas for future collaborative webites:
+     - EEAE student department website:
+     https://massma.github.io/ltf-github-website-courses/sample-websites/eeae-student-resources.html
+     - Dynamic (e.g. easier to update) water center website:
+       https://massma.github.io/ltf-github-website-courses/sample-websites/water-center-resources.html
+
+** Let's merge our changes
+
+   - Submit a pull request to my original repository, which will
+     request to add your changes.
+   - I will then re-generate content with pandoc (next presentation)
