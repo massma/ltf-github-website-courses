@@ -82,6 +82,7 @@
 ** Attendees
 
    - Adam Massmann (akm2203) : organizer
+   - put your name and uni here
 
 
 ** The [[https://ctl.columbia.edu/][Center for Teaching and learning]] (CTL) and this workshop
