@@ -2,6 +2,9 @@
 
   November 18, 2019
 
+  The Git repository for this workshop is here:
+  https://github.com/massma/ltf-github-website-courses
+
 ** Lectures and slides
 
    - [[file:lectures/git-github/intro-git-github.html][Introduction to Git and Github]] : tools to collaborate and update
@@ -75,6 +78,11 @@
 ** Misc contributions and/or feedback
 
    - any random thoughts or contributions put here
+
+** Attendees
+
+   - Adam Massmann (akm2203) : organizer
+
 
 ** The [[https://ctl.columbia.edu/][Center for Teaching and learning]] (CTL) and this workshop
 

@@ -3,6 +3,9 @@ Git for course deployment and websites
 
 November 18, 2019
 
+The Git repository for this workshop is here:
+<https://github.com/massma/ltf-github-website-courses>
+
 Lectures and slides
 -------------------
 
@@ -96,6 +99,11 @@ Misc contributions and/or feedback
 ----------------------------------
 
 -   any random thoughts or contributions put here
+
+Attendees
+---------
+
+-   Adam Massmann (akm2203) : organizer
 
 The [Center for Teaching and learning](https://ctl.columbia.edu/) (CTL) and this workshop
 -----------------------------------------------------------------------------------------
