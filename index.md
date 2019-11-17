@@ -37,6 +37,15 @@ Instructions for contributing
 
 Only modify the markdown (`.md`) files, not the html or any other files.
 
+Post-event survey
+-----------------
+
+Please fill out this
+[survey](https://columbiactl.co1.qualtrics.com/jfe/form/SV_0GtCnIhJRtbHx7D)
+after the event. This is my first time doing this, so feedback both
+helps improve and helps the CTL improve the Lead Teaching Fellowship
+program and support.
+
 Resources
 ---------
 
@@ -44,7 +53,7 @@ Resources
     projects and allows many people to contribute to a project.
 -   [Github](https://github.com/) : a Microsoft-owned web platform that
     hosts Git-managed projects and provides tools for users to raise
-    issues and questions on projects and merge thier own changes to
+    issues and questions on projects and merge their own changes to
     a project.
 -   [Markdown](https://en.wikipedia.org/wiki/Markdown) : a simple plain
     text document format that is very portable and easy to modify.
@@ -138,7 +147,7 @@ interested in teaching. Specific for doctoral students, there is the
 Program](https://ctl.columbia.edu/graduate-instructors/programs-for-graduate-students/ctl-teaching-development-program/),
 the [Lead Teaching
 Fellowship](https://ctl.columbia.edu/graduate-instructors/opportunities-for-graduate-students/lead-teaching-fellows/)
-(sponsered this event), the [Teaching Observation
+(sponsored this event), the [Teaching Observation
 Fellowship](https://ctl.columbia.edu/graduate-instructors/opportunities-for-graduate-students/teaching-observation-fellows/),
 and [Teaching Assessment
 Fellowship](https://ctl.columbia.edu/graduate-instructors/opportunities-for-graduate-students/teaching-assessment-fellows/).

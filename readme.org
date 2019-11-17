@@ -1,9 +1,14 @@
 * Materials for the "Git for course deployment and websites" workshop
 
+** Workshop website
+
+   is at: https://massma.github.io/ltf-github-website-courses/
+
+
 ** Directory structure
 
    - *lectures* - contains two lectures for editing.
-   - *sample-websites* - countains a couple of websites that could be
+   - *sample-websites* - contains a couple of websites that could be
      useful to collaborate on in the future.
 
 ** Contribution guidelines

@@ -31,13 +31,19 @@ Attendees will learn:
    Only modify the markdown (~.md~) files, not the html or any other
    files.
 
+** Post-event survey
+
+   Please fill out this [[https://columbiactl.co1.qualtrics.com/jfe/form/SV_0GtCnIhJRtbHx7D][survey]] after the event. This is my first time
+   doing this, so feedback both helps improve and helps the CTL
+   improve the Lead Teaching Fellowship program and support.
+
 ** Resources
 
    - [[https://git-scm.com/][Git]] : version control software that manages projects and allows
      many people to contribute to a project.
    - [[https://github.com/][Github]] : a Microsoft-owned web platform that hosts Git-managed
      projects and provides tools for users to raise issues and
-     questions on projects and merge thier own changes to a project.
+     questions on projects and merge their own changes to a project.
    - [[https://en.wikipedia.org/wiki/Markdown][Markdown]] : a simple plain text document format that is very
      portable and easy to modify.
    - [[https://pandoc.org/][Pandoc]] : tool to convert to and from many file formats. For
@@ -111,7 +117,7 @@ Attendees will learn:
    The CTL has a lot of great programming that I would recommend for
    anyone interested in teaching. Specific for doctoral students,
    there is the [[https://ctl.columbia.edu/graduate-instructors/programs-for-graduate-students/ctl-teaching-development-program/][CTL Teaching Development Program]], the [[https://ctl.columbia.edu/graduate-instructors/opportunities-for-graduate-students/lead-teaching-fellows/][Lead Teaching
-   Fellowship]] (sponsered this event), the [[https://ctl.columbia.edu/graduate-instructors/opportunities-for-graduate-students/teaching-observation-fellows/][Teaching Observation
+   Fellowship]] (sponsored this event), the [[https://ctl.columbia.edu/graduate-instructors/opportunities-for-graduate-students/teaching-observation-fellows/][Teaching Observation
    Fellowship]], and [[https://ctl.columbia.edu/graduate-instructors/opportunities-for-graduate-students/teaching-assessment-fellows/][Teaching Assessment Fellowship]]. If you are
    interested in any of the fellowships, I think enrollment in the
    Teaching Development Program would strengthen your application.

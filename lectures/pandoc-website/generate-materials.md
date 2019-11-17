@@ -1,44 +1,35 @@
-Using pandoc to generate course materials
-=========================================
+Generate course materials from [Markdown](https://en.wikipedia.org/wiki/Markdown) using [Pandoc](https://pandoc.org/)
+=====================================================================================================================
 
-merge group changes to improve website (10 min)
------------------------------------------------
+------------------------------------------------------------------------
 
-come together as a group, and I will work though on the projector
-merging everyone's changes. I will take guidance from ppl on what to do
-so it is a group activity.
+General workflow
 
-could maybe do one more iteration where we let students respond to
-comments or update pull requests.
+1.  Accept pull requests.
+2.  Pull updated repository onto computer.
+3.  Run [Pandoc](https://pandoc.org/) on Markdown files to generate
+    websites and presentations. This can be automated using a "build
+    tool" like [Gnu Make](https://www.gnu.org/software/make/), which
+    automatically detects which markdown files are changed, and runs the
+    required Pandoc commands to generate content.
+4.  Commit updated content and push back to repository.
 
-explain pandoc, run through improved website (10 min)
------------------------------------------------------
+More about [Pandoc](https://pandoc.org/)
+----------------------------------------
 
-If I had them make changes to markdown or org mode files, then this
-would be the time to also show how I use pandoc or whatever tool to
-generate the website from the markdown and/or org mode files. Also
-introduce makefiles here I guess - maybe not. No make for windows.
-
-pandoc intro:
-
-<https://pandoc.org/getting-started.html>
-
-try it online:
+You can try it online:
 
 <https://pandoc.org/try/>
 
-debrief, feedback, other tools (10-20 min)
-------------------------------------------
+there is also a tutorial for using it on your computer:
 
-Time permitting discuss pandoc in more detail, discuss gitlab vs github
-vs bitbucket, talk about juptyer notebooks and nbgrader and automated
-submissions.
+<https://pandoc.org/getting-started.html>
 
-solicit feedback on benefits vs downsides (need to pick single markdown
-format in order to avoid circular dependencies in makefile?).
+Debrief, survey and free time
+-----------------------------
 
-timing
-------
-
-right now time is a little high, 1 hr 20 - 1 hr 30 min. Should do run
-through with Chloe and see how things go.
+Please fill out this
+[survey](https://columbiactl.co1.qualtrics.com/jfe/form/SV_0GtCnIhJRtbHx7D).
+I will stick around and we can discuss anything, or feel free to play
+around with any of these tools (more contributions to the repository are
+encouraged!).

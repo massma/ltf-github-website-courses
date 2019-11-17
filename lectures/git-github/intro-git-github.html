@@ -27,25 +27,27 @@
     <div class="slides">
 
 
-<section><section id="git-for-course-deployment-fall-2019" class="titleslide slide level1"><h1>Git for course deployment (Fall 2019)</h1></section><section id="learning-objectives" class="slide level2">
-<h1>Learning objectives</h1>
+<section><section id="part-1-intro-to-git-and-github" class="titleslide slide level1"><h1>Part 1: Intro to Git and Github</h1></section><section class="slide level2">
+
+<h4 id="learning-objectives">Learning objectives</h4>
 <ul>
-<li>How to use Git to manage projects.</li>
-<li>How to publish a website using Github.</li>
-<li>How to manage content with simple markdown text files.</li>
-<li>How simple text files and git ease collaboration and rapid development.</li>
-<li>How we can automatically generate websites, documents and presentations from simple text files.</li>
+<li>Use Git to manage projects.</li>
+<li>Use Git to publish a website using Github.</li>
+<li>Manage content with simple markdown text files.</li>
+<li>Appreciate how simple text files and git ease collaboration and rapid development.</li>
+<li>Automatically generate websites, documents and presentations from simple text files.</li>
 <li>The pros and cons of using Git as a tool to manage, organize, and collaborate on the deployment of courses.</li>
 </ul>
 </section><section id="introductions" class="slide level2">
 <h1>Introductions</h1>
 <p>Please introduce yourself to the person sitting next to you, sharing your position and area of study or research.</p>
-<p>Then we will go around the room and each person will introduce the person next to them.</p>
+<p>Then we will go around the room and each person will introduce the person they just met.</p>
 </section><section id="sign-up-for-github" class="slide level2">
 <h1>Sign up for Github</h1>
 <p>Please make an account at <a href="https://github.com/" class="uri">https://github.com/</a>.</p>
-</section><section id="install-git" class="slide level2">
-<h1>Install Git</h1>
+</section><section class="slide level2">
+
+<h3 id="install-git-optional">Install Git (optional)</h3>
 <h3 id="git-for-windows">Git for Windows</h3>
 <ul>
 <li><a href="https://gitforwindows.org/" class="uri">https://gitforwindows.org/</a></li>
@@ -53,76 +55,79 @@
 <h3 id="git-for-mac">Git for Mac</h3>
 <ul>
 <li>With homebrew: <code>brew install git</code></li>
-<li>Or with MacPorts: <code>sudo port install git +svn +doc  +bash_completion +gitweb</code></li>
+<li>Or with MacPorts: <code>sudo port install git</code></li>
 <li>Or with the Git installer (if you don't have homebrew or MacPorts already installed): <a href="https://git-scm.com/download/mac" class="uri">https://git-scm.com/download/mac</a></li>
 </ul>
-<h3 id="third-option-do-everything-on-the-cloud-with-github">Third option: do everything on the cloud with Github</h3>
+</section><section class="slide level2">
+
+<h3 id="other-option-do-everything-on-the-cloud-with-github">Other option: do everything on the cloud with Github</h3>
 <ul>
-<li><p>You can still participate in the workshop without Git installed, but I recommend installing it for future use.</p></li>
-<li><p>If you prefer this option, here are instricutions to make edits directly on Github:</p>
+<li><p>You can still participate in the workshop without Git installed.</p></li>
+<li><p>If you prefer this option, here are instructions to make edits directly on Github:</p>
 <ul>
 <li><a href="https://guides.github.com/activities/hello-world/" class="uri">https://guides.github.com/activities/hello-world/</a></li>
 </ul></li>
 </ul>
-</section><section id="what-are-git-and-github" class="slide level2">
-<h1>What are Git and Github</h1>
+</section><section class="slide level2">
+
+<h3 id="what-are-git-and-github">What are Git and Github</h3>
 <ul>
 <li>Git was created for collaborative software development. It tracks all changes made to files, and can merge changes made separately by different people.</li>
-<li>Github is a web platform made by Microsoft that hosts Git projects and provides complementary tools.</li>
+<li>Github is a web platform owned by Microsoft that hosts Git projects and provides complementary tools.</li>
 </ul>
-</section><section id="section" class="slide level2">
-<h1><img src="https://i.imgur.com/mNfax2z.png" /></h1>
-</section><section id="git-steps-in-command-form" class="slide level2">
-<h1>Git steps in command form</h1>
+</section><section class="slide level2">
+
+<figure>
+<img src="https://i.imgur.com/mNfax2z.png" alt="The four steps of git" /><figcaption>The four steps of git</figcaption>
+</figure>
+<p>--&gt; created by <a href="http://talks.moacir.com/itsi-19/#/8">Moacir P. de Sá Pereira</a></p>
+</section><section class="slide level2">
+
+<h3 id="git-steps-in-command-form">Git steps in command form</h3>
 <ul>
-<li><code>git add &lt;filename&gt;</code> : stage a file to be commited</li>
-<li><code>git commit</code> : make a commit with a message</li>
+<li><code>git add &lt;filename&gt;</code> : stage a file to be committed</li>
+<li><code>git commit</code> : commit your changes to the repository with a message</li>
 <li><code>git push</code> : push your changes to remote repository (backup)</li>
+<li><code>git pull</code> : pull any remote changes to your computer.</li>
 </ul>
 </section><section id="github-features" class="slide level2">
 <h1>Github features</h1>
 <p><a href="https://github.com/massma/ltf-github-website-courses" class="uri">https://github.com/massma/ltf-github-website-courses</a></p>
-</section><section id="how-can-these-features-be-useful-for-deploying-and-organizing-materials" class="slide level2">
-<h1>How can these features be useful for deploying and organizing materials?</h1>
+</section><section class="slide level2">
+
+<h3 id="how-can-these-features-be-useful-for-deploying-and-organizing-course-materials">How can these features be useful for deploying and organizing course materials?</h3>
 <ul>
-<li>take a moment to write a few thoughts down on your own, in your text editor or on scrap paper (1 min)</li>
-<li>share your thoughts with the person next to you (3 min)</li>
-<li>group discussion (3-5 min)</li>
+<li>Take a moment to write a few thoughts down on your own, in your text editor or on scrap paper (1 min)</li>
+<li>Share your thoughts with the person next to you (3 min)</li>
+<li>Group discussion (3-5 min)</li>
 </ul>
-</section><section id="lets-collaborate-on-this-workshop." class="slide level2">
-<h1>Let's collaborate on this workshop.</h1>
+</section><section class="slide level2">
+
+<h3 id="lets-collaborate-on-this-workshop.">Let's collaborate on this workshop.</h3>
+<ol type="1">
+<li>Fork the <a href="https://github.com/massma/ltf-github-website-courses">repository</a>.</li>
+<li>Enable Github pages</li>
+<li>On your version of the repository, edit workshop files (*.md) to improve the workshop on Github.</li>
+<li>Or, if you installed Git you can clone your version of the repository to your local computer and edit with your text editor of choice. Recommended if you plan on using these tools a lot.</li>
+</ol>
+</section><section class="slide level2">
+
+<h3 id="ideas-for-contributions">Ideas for contributions</h3>
 <ul>
-<li>fork the <a href="https://github.com/massma/ltf-github-website-courses">repository</a>.</li>
-<li>enable github pages</li>
-<li>on your version of the repository, edit workshop files (*.md) to improve the workshop on Github, and/or
-<ul>
-<li>submit an issue</li>
-<li>clone the repository locally and edit with the text editor of your choice (recommeneded if you anticipate using these tools a lot)</li>
-</ul></li>
+<li>Add your name and uni to the attendees section of the website landing</li>
+<li>Improve any errors or confusing spots in the slides</li>
+<li>Open an issue if something was confusing but you do not know how to fix it.</li>
+<li>Add content to the <a href="https://massma.github.io/ltf-github-website-courses/index.html">main website</a>, or to some initial websites hosting resource for <a href="https://massma.github.io/ltf-github-website-courses/index.html">EEAE students</a> and <a href="https://massma.github.io/ltf-github-website-courses/sample-websites/water-center-resources.html">Water Center people</a>.</li>
 </ul>
-</section><section id="ideas-for-contributions" class="slide level2">
-<h1>Ideas for contributions</h1>
-<ul>
-<li>add your name and uni to the attendees section of the website landing</li>
-<li>improve any errors or confusing spots in the slides</li>
-<li>open an issue if something was confusing but you do not know how to fix it.</li>
-<li>open an issue for any questions you have</li>
-<li>add content to the main website (<a href="https://massma.github.io/ltf-github-website-courses/" class="uri">https://massma.github.io/ltf-github-website-courses/</a>)</li>
-<li>add content to some ideas for future collaborative webites:
-<ul>
-<li>EEAE student department website:</li>
-</ul>
-<a href="https://massma.github.io/ltf-github-website-courses/sample-websites/eeae-student-resources.html" class="uri">https://massma.github.io/ltf-github-website-courses/sample-websites/eeae-student-resources.html</a>
-<ul>
-<li>Dynamic (e.g. easier to update) water center website: <a href="https://massma.github.io/ltf-github-website-courses/sample-websites/water-center-resources.html" class="uri">https://massma.github.io/ltf-github-website-courses/sample-websites/water-center-resources.html</a></li>
-</ul></li>
-</ul>
-</section><section id="lets-merge-our-changes" class="slide level2">
-<h1>Let's merge our changes</h1>
+</section><section class="slide level2">
+
+<h3 id="lets-merge-our-changes">Let's merge our changes</h3>
 <ul>
 <li>Submit a pull request to my original repository, which will request to add your changes.</li>
 <li>I will then re-generate content with pandoc (next presentation)</li>
 </ul>
+</section><section class="slide level2">
+
 </section></section>
     </div>
   </div>
