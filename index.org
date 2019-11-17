@@ -8,7 +8,11 @@
      content.
    - [[file:lectures/pandoc-website/generate-materials.html][Using pandoc to automatically generate websites, presentations,
      and notes]] : convert simple, portable, and accessible text formats
-     to "prettier" presentations.
+     to "prettier" representations.
+
+** Instructions for contributing
+   Only modify the markdown (~.md~) files, not the html or any other
+   files.
 
 ** Resources
 
@@ -23,16 +27,16 @@
      example, it can generate PDFs, websites, and presentations from
      Markdown text files.
 
-*** Build tools (these might be OS-specific)
+*** Tools to automate content generation; e.g. "build tools" (these might be OS-specific)
 
 **** GNU/Linux and Mac OSX
   - [[https://www.gnu.org/software/make/][Gnu Make]] : simple tool that automatically detects changes in
     source materials and re-compiles dependencies. In our examples,
     this involves automatically "compiling" websites and presentations
-    when there are changes to the Markdown files.
+    using Pandoc whenever there are changes to the Markdown files.
 
 **** Windows
-  - *Any help from Windows users on what is used?* Could install make
+  - *Any help from Windows users on what is used?* Could install ~make~
     with Cygwin, but seems overly complicated.
 
 *** Alternatives
@@ -46,12 +50,14 @@
       languages also have build systems, and it can be beneficial to
       use a build system embedded in the language you prefer
       (e.g. [[https://scons.org/][SCons]] in Python, [[https://ruby.github.io/rake/][Rake]] in Ruby).
+    - [[https://orgmode.org/][Org mode]] - an alternative to Markdown with advanced personal
+      organizational tools integrated into the Emacs text editor.
 
 ** Tutorials
 
    - [[https://guides.github.com/activities/hello-world/][Github Hello World]] : introduction to Github, and no text editor
      even required!
-   - [[https://git-scm.com/docs/gittutorial][Git tutorial]] : in depth introduction to Get
+   - [[https://git-scm.com/docs/gittutorial][Git tutorial]] : in depth introduction to Git
    - [[https://pandoc.org/getting-started.html][Pandoc Getting Started]] : very thorough and accessible
      introduction to using Pandoc.
    - [[https://pandoc.org/try/][Try Pandoc Online]] : simple web application that lets you convert
@@ -68,8 +74,18 @@
 
 ** Misc contributions and/or feedback
 
-   - any random thoughts put here
+   - any random thoughts or contributions put here
 
-   This /event is sponsored by the Lead Teaching Fellowship/, which is
+** The [[https://ctl.columbia.edu/][Center for Teaching and learning]] (CTL) and this workshop
+
+   This event is sponsored by the *Lead Teaching Fellowship*, which is
    a professional development program for graduate students at
    Columbia University committed to advancing pedagogy.
+
+   The CTL has a lot of great programming that I would recommend for
+   anyone interested in teaching. Specific for doctoral students,
+   there is the [[https://ctl.columbia.edu/graduate-instructors/programs-for-graduate-students/ctl-teaching-development-program/][CTL Teaching Development Program]], the [[https://ctl.columbia.edu/graduate-instructors/opportunities-for-graduate-students/lead-teaching-fellows/][Lead Teaching
+   Fellowship]] (sponsered this event), the [[https://ctl.columbia.edu/graduate-instructors/opportunities-for-graduate-students/teaching-observation-fellows/][Teaching Observation
+   Fellowship]], and [[https://ctl.columbia.edu/graduate-instructors/opportunities-for-graduate-students/teaching-assessment-fellows/][Teaching Assessment Fellowship]]. If you are
+   interested in any of the fellowships, I think enrollment in the
+   Teaching Development Program would strengthen your application.
