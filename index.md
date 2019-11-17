@@ -6,6 +6,24 @@ November 18, 2019
 The Git repository for this workshop is here:
 <https://github.com/massma/ltf-github-website-courses>
 
+Learning objectives for the workshop
+------------------------------------
+
+Learning objectives
+-------------------
+
+Attendees will learn:
+
+-   How to use Git to manage projects.
+-   How to publish a website using Github.
+-   How to manage content with simple Markdown text files.
+-   How simple text files and git ease collaboration and
+    rapid development.
+-   How we can automatically generate websites, documents and
+    presentations from simple text files.
+-   The pros and cons of using Git as a tool to manage, organize, and
+    collaborate on the deployment of courses.
+
 Lectures and slides
 -------------------
 
