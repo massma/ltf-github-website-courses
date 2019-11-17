@@ -1,6 +1,6 @@
 .PHONY : clean all
 
-all : index.html
+all : index.html readme.md
 	+$(MAKE) -C lectures/git-github
 	+$(MAKE) -C lectures/pandoc-website
 	+$(MAKE) -C sample-websites
