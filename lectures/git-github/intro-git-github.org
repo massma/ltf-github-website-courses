@@ -75,7 +75,10 @@
    - share your thoughts with the person next to you (3 min)
    - group discussion (3-5 min)
 
-** Let's collaborate on this work shop.
+** Let's collaborate on this workshop.
 
-   tell students to work in pairs in order to either change the
-   course materials, or open an issue with their comments.
+    - fork the repository
+    - enable github pages
+    - edit workshop files (*.md) to improve the workshop on Github, or
+       - submit an issue
+       - clone the repository locally and edit with the text editor of your choice (recommeneded if you anticipate using these tools a lot)
