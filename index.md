@@ -102,8 +102,9 @@ Tutorials
 -   [Github Hello
     World](https://guides.github.com/activities/hello-world/) :
     introduction to Github, and no text editor even required!
--   [Mastering Markdown](https://guides.github.com/) : Github
-    introduction to Markdown format.
+-   [Mastering
+    Markdown](https://guides.github.com/features/mastering-markdown/) :
+    Github introduction to Markdown format.
 -   [Git tutorial](https://git-scm.com/docs/gittutorial) : in depth
     introduction to Git
 -   [Pandoc Getting Started](https://pandoc.org/getting-started.html) :
