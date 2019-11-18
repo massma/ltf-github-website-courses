@@ -5,7 +5,7 @@ Generate course materials from [Markdown](https://en.wikipedia.org/wiki/Markdown
 
 General workflow
 
-1.  Accept pull requests.
+1.  Accept pull requests from contributors.
 2.  Pull updated repository onto computer.
 3.  Run [Pandoc](https://pandoc.org/) on Markdown files to generate
     websites and presentations. This can be automated using a "build

@@ -63,8 +63,8 @@ Please make an account at <https://github.com/>.
 ### What are Git and Github
 
 -   Git was created for collaborative software development. It tracks
-    all changes made to files, and can merge changes made separately by
-    different people.
+    all changes made to files, and can merge together changes made
+    separately by different people.
 -   Github is a web platform owned by Microsoft that hosts Git projects
     and provides complementary tools.
 
@@ -80,8 +80,9 @@ Please make an account at <https://github.com/>.
 
 -   `git add <filename>` : stage a file to be committed
 -   `git commit` : commit your changes to the repository with a message
--   `git push` : push your changes to remote repository (backup)
--   `git pull` : pull any remote changes to your computer.
+-   `git push` : push your changes to a remote repository like Github
+    (backup)
+-   `git pull` : pull any remote changes on Github to your computer.
 
 ----
 
@@ -91,7 +92,7 @@ Please make an account at <https://github.com/>.
 
 ----
 
-### How can these features be useful for deploying and organizing course materials?
+### How can Github's features be useful for deploying and organizing course materials?
 
 -   Take a moment to write a few thoughts down on your own, in your text
     editor or on scrap paper (1 min)
@@ -100,7 +101,7 @@ Please make an account at <https://github.com/>.
 
 ----
 
-### Let's collaborate on this workshop.
+### Let's collaborate on this workshop
 
 1.   Fork the
     [repository](https://github.com/massma/ltf-github-website-courses).
@@ -116,13 +117,13 @@ Please make an account at <https://github.com/>.
 ### Ideas for contributions
 
 -   Add your name and uni to the attendees section of the website
-    landing
+    landing (index.md)
 -   Improve any errors or confusing spots in the slides
 -   Open an issue if something was confusing but you do not know how to
     fix it.
 -   Add content to the [main
     website](https://massma.github.io/ltf-github-website-courses/index.html),
-    or to some initial websites hosting resource
+    or to some initial websites hosting resources
     for [EEAE
     students](https://massma.github.io/ltf-github-website-courses/index.html)
     and [Water Center
@@ -137,3 +138,5 @@ Please make an account at <https://github.com/>.
 -   I will then re-generate content with pandoc (next presentation)
 
 ----
+
+## Thanks for participating!
