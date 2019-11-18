@@ -4,7 +4,7 @@ Workshop: Git for course deployment and websites
 November 18, 2019
 
 The Git repository for this workshop is here:
-<https://github.com/massma/ltf-github-website-courses>
+<https://github.com/yuhuang3019/ltf-github-website-courses>
 
 Learning objectives
 -------------------
