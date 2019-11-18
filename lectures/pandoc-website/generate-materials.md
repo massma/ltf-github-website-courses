@@ -25,6 +25,24 @@ there is also a tutorial for using it on your computer:
 
 <https://pandoc.org/getting-started.html>
 
+----
+
+### Install Git (optional)
+
+### Git for Windows
+
+-   <https://gitforwindows.org/>
+
+
+### Git for Mac
+
+-   With homebrew: `brew install git`
+-   Or with MacPorts: `sudo port install git`
+-   Or with the Git installer (if you don't have homebrew or MacPorts
+    already installed): <https://git-scm.com/download/mac>
+
+----
+
 Debrief, survey and free time
 -----------------------------
 

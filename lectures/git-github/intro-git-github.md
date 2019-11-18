@@ -27,62 +27,52 @@ person they just met.
 
 ----
 
+### What are Git and Github
+
+-   Git is a software tool for collaborative software development. It
+    has a command line interface and can also be used with cloud
+    platforms like Github (see below). It tracks all changes made to
+    files and can merge changes made separately by different people.
+
+-   Github is a web platform owned by Microsoft that hosts Git projects
+    and provides complementary tools.
+
+----
+
 ## Sign up for Github
 
 Please make an account at <https://github.com/>.
 
 ----
 
-### Install Git (optional)
+### Using Git and Github
 
-### Git for Windows
+-   If you have Git already installed on your computer, please feel
+    free to use it if you feel comfortable.
 
--   <https://gitforwindows.org/>
-
-
-### Git for Mac
-
--   With homebrew: `brew install git`
--   Or with MacPorts: `sudo port install git`
--   Or with the Git installer (if you don't have homebrew or MacPorts
-    already installed): <https://git-scm.com/download/mac>
+-   If you do not have Git installed, everything can be done on the
+    cloud using Github.
 
 ----
 
-### Other option: do everything on the cloud with Github
 
--   You can still participate in the workshop without Git installed.
+### Git definitions
 
--   If you prefer this option, here are instructions to make edits
-    directly on Github:
-
-    -   <https://guides.github.com/activities/hello-world/>
+-   **repository** : a directory of files tracked by Git
+-   **fork** : a copy of someone else's repository in your Github
+    account
 
 ----
 
-### What are Git and Github
+### Git steps and terms
 
--   Git was created for collaborative software development. It tracks
-    all changes made to files, and can merge together changes made
-    separately by different people.
--   Github is a web platform owned by Microsoft that hosts Git projects
-    and provides complementary tools.
+-   **git add** `<filename>` : add your file to a list of files to be
+    committed
+-   **git commit** : update the repository with your changes
+-   **git push** : transfer your local changes to a remote repository
+    like Github (backup)
+-   **git pull** : transfer any remote changes on Github to your computer.
 
-----
-
-![The four steps of git](https://i.imgur.com/mNfax2z.png)
-
---> created by [Moacir P. de Sá Pereira](http://talks.moacir.com/itsi-19/#/8)
-
-----
-
-### Git steps in command form
-
--   `git add <filename>` : stage a file to be committed
--   `git commit` : commit your changes to the repository with a message
--   `git push` : push your changes to a remote repository like Github
-    (backup)
--   `git pull` : pull any remote changes on Github to your computer.
 
 ----
 
@@ -92,10 +82,10 @@ Please make an account at <https://github.com/>.
 
 ----
 
-### How can Github's features be useful for deploying and organizing course materials?
+### How can Github's features be useful (or painful) for deploying and organizing course materials?
 
--   Take a moment to write a few thoughts down on your own, in your text
-    editor or on scrap paper (1 min)
+-   Take a moment to write a few thoughts down on your own, in your
+    text editor or on scrap paper (1 min)
 -   Share your thoughts with the person next to you (3 min)
 -   Group discussion (3-5 min)
 
@@ -138,5 +128,3 @@ Please make an account at <https://github.com/>.
 -   I will then re-generate content with pandoc (next presentation)
 
 ----
-
-## Thanks for participating!
