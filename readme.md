@@ -18,3 +18,9 @@ Contribution guidelines
 
 Please only modify Markdown files (`.md`). All other files are generated
 from the Markdown files.
+
+Useful commands for merging conflicts
+------------------------------------
+
+`git diff --name-only --diff-filter=U` : lists all filenames that have conflicts
+`git diff --check` : lists all filenames that have conflicts, with line numbers
