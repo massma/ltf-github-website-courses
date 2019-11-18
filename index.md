@@ -118,11 +118,39 @@ Pros and Cons of Github for course deployment and website design
 
 ### Pros
 
--   some help here?
+-   Students and contribute to course content, fix errors, and take
+    ownership of the material in a unique way.
+-   "Issues" page acts as a forum like Piazza: students can ask
+    questions and answer each others' questions.
+-   All course materials are in one place, rather than split across
+    websites, Piazza, Courseworks, email, etc.
+-   Students learn tools (Github, Git) that can benefit them in their
+    academic and professional lives.
+-   Course development is transparent: students and teachers can see
+    the history of materials and when/why materials were changed,
+    updated, or added.
+-   Students get credit for their contributions in a formal way
+    ("contributors" page).
+-   All materials are publicly available (e.g. no uni required to
+    access), so others can benefit from the course material.
+-   Course materials are in an accessible and portable format. No
+    proprietary software is required to access or read course
+    material, like Microsoft office.
+-   Facilitates collaboration between TAs and instructors in the
+    development of course materials.
 
 ### Cons
 
--   some help here?
+-   Students must, depending on their background, learn a new tool.
+-   Students are required to sign up for Github. While it is free
+    cost-wise, some students may not want to sign up for another
+    online account, especially one that is owned by a large
+    corporation like Microsoft.
+-   For many students the delivery of materials with Github may be new
+    and disorienting, and could take some getting used to. This could
+    negatively impact or disadvantage the students who are less
+    familiar with Github and formats like Markdown.
+
 
 Misc contributions and/or feedback
 ----------------------------------
@@ -142,6 +170,10 @@ Attendees
 -   Laureline Josset (lj2390)
 -   Prachi Patel (pmp2138)
 -   Yash Amonkar (yva2000)
+-   Weiqian Wang (ww2559)
+-   Minzhi Yang (my2662)
+-   Luping Ye (ly2483)
+-   Jisu Han (jh4147)
 
 The [Center for Teaching and learning](https://ctl.columbia.edu/) (CTL) and this workshop
 -----------------------------------------------------------------------------------------
