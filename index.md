@@ -11,15 +11,15 @@ Learning objectives
 
 Attendees will learn:
 
--   How to use Git to manage projects.
--   How to publish a website using Github.
--   How to manage content with simple Markdown text files.
+-   How to use Git to manage projects
+-   How to publish a website using Github
+-   How to manage content with simple Markdown text files
 -   How simple text files and Git ease collaboration and
-    rapid development.
--   How we can automatically generate websites, documents and
-    presentations from simple text files.
+    rapid development
+-   How we can automatically generate websites, documents, and
+    presentations from simple text files
 -   The pros and cons of using Git as a tool to manage, organize, and
-    collaborate on the deployment of courses.
+    collaborate on the deployment of courses
 
 Lectures and slides
 -------------------
@@ -133,6 +133,7 @@ Attendees
 ---------
 
 -   Adam Massmann (akm2203) : organizer
+-   Chloe Diamond (ccd2120)
 -   put your name and uni here
 
 The [Center for Teaching and learning](https://ctl.columbia.edu/) (CTL) and this workshop
