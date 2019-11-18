@@ -134,6 +134,7 @@ Attendees
 
 -   Adam Massmann (akm2203) : organizer
 -   Chloe Diamond (ccd2120)
+-   Laureline Josset (lj2390)
 -   Prachi Patel (pmp2138)
 -   Yash Amonkar(yva2000)
 
