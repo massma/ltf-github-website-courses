@@ -134,7 +134,7 @@ Attendees
 
 -   Adam Massmann (akm2203) : organizer
 -   Chloe Diamond (ccd2120)
--   put your name and uni here
+-   put your name and uni here: wz2481
 
 The [Center for Teaching and learning](https://ctl.columbia.edu/) (CTL) and this workshop
 -----------------------------------------------------------------------------------------
