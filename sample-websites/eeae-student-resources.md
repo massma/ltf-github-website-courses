@@ -4,7 +4,7 @@ Useful resources for Earth and Environmental Engineering students
 Ph.D. Program
 -------------
 
-TODO
+-[Yu Huang](http://www.columbia.edu/~yh3019/)
 
 M.S. Program
 ------------

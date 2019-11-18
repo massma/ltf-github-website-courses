@@ -134,6 +134,7 @@ Attendees
 
 -   Adam Massmann (akm2203) : organizer
 -   Chloe Diamond (ccd2120)
+-   Yu Huang (yh3019)
 -   Wenli Zhou wz2481
 -   Dianchen Sun (ds3869)
 -   Yaling Liu (yl3937)
