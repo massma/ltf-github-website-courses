@@ -43,8 +43,8 @@ Post-event survey
 Please fill out this
 [survey](https://columbiactl.co1.qualtrics.com/jfe/form/SV_0GtCnIhJRtbHx7D)
 after the event. This is my first time doing this, so feedback both
-helps improve and helps the CTL improve the Lead Teaching Fellowship
-program and support.
+helps me improve and helps the CTL improve the Lead Teaching
+Fellowship program and support.
 
 Resources
 ---------
