@@ -1,0 +1,75 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: Git for course deployment and websites: lesson plan (Fall 2019)
+#+date: <2019-11-18 Mon>
+#+author: Adam Massmann
+#+email: akm2203@columbia.edu
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 25.1.1 (Org mode 9.2.3)
+
+* Git for course deployment and websites: lesson plan (Fall 2019)
+** Introduce main website (10-20 min)
+
+   Go over the main [[https://massma.github.io/ltf-github-website-courses/][workshop website]], say it was designed to be
+   analogous to a course websites. Follow the link to the Git
+   repository and show that Github both stores the files of the
+   website and course materials, and also hosts the website. Show
+   the students that the website is generated from simple Markdown
+   files, and that Markdown is much easier to write than html (by
+   comparing an html file in the repository to the Markdown file it
+   was generated from).
+
+   While doing this, regularly query for hands as to who is
+   familiar or has used a given tool/format. Do this for Github,
+   Markdown, and html. This lets you know what the attendee's
+   baseline is.
+
+   Finally, introduce the CTL section and links at the bottom of
+   the website, and how they are funding this workshop and all of
+   the great programming they offer.
+
+** Work though [[https://massma.github.io/ltf-github-website-courses/lectures/git-github/intro-git-github.html][first slideshow]] introducing Git and Github (40-50 min)
+
+   This should be self explanatory, except for the "Github
+   features" slide. Here follow the link and show students the main
+   features of Github, at a level commiserate with their baseline
+   knowledge (determined by the questions at the beginning). Make
+   sure they understand that a repository is just a directory, that
+   commits provide the history of the material, and that people can
+   create issues. Connect "issues" to other course forums like
+   Piazza and how they offer the same functionality.
+
+   Also while students are doing the self directed tasks
+   (e.g. create a Github account, fork repository, make changes,
+   etc.). Circulate and just make sure everyone is doing okay. Some
+   shy students might not say they are not done when you ask the
+   group if they are finished with a task.
+
+** Work though [[https://massma.github.io/ltf-github-website-courses/lectures/pandoc-website/generate-materials.html][second slideshow]] on generating materials from markdown with Pandoc (15-25 min)
+
+   This slide show is a little less self-explanatory. First follow
+   the link on the title page to Pandoc's website, and explain how
+   Pandoc is a powerful tool that can covert between many document
+   formats, and that it was created by a university professor who
+   uses it explicitly to manage his course notes using Markdown.
+
+   Then present the general workflow slide, and at each step do a
+   demo on your computer where you execute that step for the
+   attendee's contributions from the [[https://massma.github.io/ltf-github-website-courses/lectures/git-github/intro-git-github.html][first slideshow]]. After you are
+   done, show the updated course materials reflecting all the
+   attendees' contributions.
+
+   On the Pandoc slide demonstrate the two links for using it on
+   the web and how to install, should they be interested in using it
+   on their own. Also the installing Git slide is there as a
+   resource for anyone who wants to install Git on their local
+   computer.
+
+   Finally finish with the last slide, ask students to take the
+   survey, and then just stick around in case anyone has questions
+   or wants to chat about the workshop.
