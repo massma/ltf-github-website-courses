@@ -118,7 +118,7 @@ Pros and Cons of Github for course deployment and website design
 
 ### Pros
 
--   Students and contribute to course content, fix errors, and take
+-   Students can contribute to course content, fix errors, and take
     ownership of the material in a unique way.
 -   "Issues" page acts as a forum like Piazza: students can ask
     questions and answer each others' questions.
