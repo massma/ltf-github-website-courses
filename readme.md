@@ -24,3 +24,16 @@ Useful commands for merging conflicts
 
 `git diff --name-only --diff-filter=U` : lists all filenames that have conflicts
 `git diff --check` : lists all filenames that have conflicts, with line numbers
+
+Building the website locally
+----------------------------
+
+### Software requirements
+
+- [Pandoc](https://pandoc.org/)
+- [GNU Make](https://www.gnu.org/software/make/)
+
+### Instructions
+
+1. Clone the repository: `git clone --recursive git@github.com:massma/ltf-github-website-courses.git`.
+2. Run make: `cd ltf-github-website-courses && make`.
