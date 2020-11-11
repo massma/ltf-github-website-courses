@@ -1,3 +1,6 @@
+---
+title: Intro to Git and Github
+---
 Part 1: Intro to Git and Github
 =====================================
 

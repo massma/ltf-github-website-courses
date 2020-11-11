@@ -3,46 +3,54 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title></title>
+  <title>Generate course materials from Markdown using Pandoc</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://revealjs.com/css/reveal.css">
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="https://revealjs.com/css/theme/solarized.css" id="theme">
-  <!-- Printing and PDF exports -->
-  <script>
-    var link = document.createElement( 'link' );
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://revealjs.com/css/print/pdf.css' : 'https://revealjs.com/css/print/paper.css';
-    document.getElementsByTagName( 'head' )[0].appendChild( link );
-  </script>
-  <!--[if lt IE 9]>
-  <script src="https://revealjs.com/lib/js/html5shiv.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="../../reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="../../reveal.js/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../../reveal.js/dist/theme/solarized.css" id="theme">
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
+<section id="title-slide">
+  <h1 class="title">Generate course materials from Markdown using Pandoc</h1>
+</section>
 
-<section><section id="generate-course-materials-from-markdown-using-pandoc" class="titleslide slide level1"><h1>Generate course materials from <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> using <a href="https://pandoc.org/">Pandoc</a></h1></section><section class="slide level2">
+<section>
+<section id="generate-course-materials-from-markdown-using-pandoc" class="title-slide slide level1">
+<h1>Generate course materials from <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> using <a href="https://pandoc.org/">Pandoc</a></h1>
+
+</section>
+<section class="slide level2">
 
 <p>General workflow</p>
 <ol type="1">
 <li>Accept pull requests from contributors.</li>
 <li>Pull updated repository onto computer.</li>
-<li>Run <a href="https://pandoc.org/">Pandoc</a> on Markdown files to generate websites and presentations. This can be automated using a &quot;build tool&quot; like <a href="https://www.gnu.org/software/make/">Gnu Make</a>, which automatically detects which markdown files are changed, and runs the required Pandoc commands to generate content.</li>
+<li>Run <a href="https://pandoc.org/">Pandoc</a> on Markdown files to generate websites and presentations. This can be automated using a “build tool” like <a href="https://www.gnu.org/software/make/">Gnu Make</a>, which automatically detects which markdown files are changed, and runs the required Pandoc commands to generate content.</li>
 <li>Commit updated content and push back to repository.</li>
 </ol>
-</section><section id="more-about-pandoc" class="slide level2">
-<h1>More about <a href="https://pandoc.org/">Pandoc</a></h1>
+</section>
+<section id="more-about-pandoc" class="slide level2">
+<h2>More about <a href="https://pandoc.org/">Pandoc</a></h2>
 <p>You can try it online:</p>
 <p><a href="https://pandoc.org/try/" class="uri">https://pandoc.org/try/</a></p>
 <p>there is also a tutorial for using it on your computer:</p>
 <p><a href="https://pandoc.org/getting-started.html" class="uri">https://pandoc.org/getting-started.html</a></p>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <h3 id="install-git-optional">Install Git (optional)</h3>
 <h3 id="git-for-windows">Git for Windows</h3>
@@ -53,29 +61,36 @@
 <ul>
 <li>With homebrew: <code>brew install git</code></li>
 <li>Or with MacPorts: <code>sudo port install git</code></li>
-<li>Or with the Git installer (if you don't have homebrew or MacPorts already installed): <a href="https://git-scm.com/download/mac" class="uri">https://git-scm.com/download/mac</a></li>
+<li>Or with the Git installer (if you don’t have homebrew or MacPorts already installed): <a href="https://git-scm.com/download/mac" class="uri">https://git-scm.com/download/mac</a></li>
 </ul>
-</section><section id="debrief-survey-and-free-time" class="slide level2">
-<h1>Debrief, survey and free time</h1>
+</section>
+<section id="debrief-survey-and-free-time" class="slide level2">
+<h2>Debrief, survey and free time</h2>
 <p>Please fill out this <a href="https://columbiactl.co1.qualtrics.com/jfe/form/SV_0GtCnIhJRtbHx7D">survey</a>. I will stick around and we can discuss anything, or feel free to play around with any of these tools (more contributions to the repository are encouraged!).</p>
 </section></section>
     </div>
   </div>
 
-  <script src="https://revealjs.com/lib/js/head.min.js"></script>
-  <script src="https://revealjs.com/js/reveal.js"></script>
+  <script src="../../reveal.js/dist/reveal.js"></script>
+
+  // reveal.js plugins
+  <script src="../../reveal.js/plugin/notes/notes.js"></script>
+  <script src="../../reveal.js/plugin/search/search.js"></script>
+  <script src="../../reveal.js/plugin/zoom/zoom.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
-      // https://github.com/hakimel/reveal.js#configuration
+      // https://revealjs.com/config/
       Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
 
-        // Optional reveal.js plugins
-        dependencies: [
-          { src: 'https://revealjs.com/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'https://revealjs.com/plugin/zoom-js/zoom.js', async: true },
-          { src: 'https://revealjs.com/plugin/notes/notes.js', async: true }
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
         ]
       });
     </script>

@@ -3,31 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <title></title>
+  <title>Intro to Git and Github</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="https://revealjs.com/css/reveal.css">
-  <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="https://revealjs.com/css/theme/solarized.css" id="theme">
-  <!-- Printing and PDF exports -->
-  <script>
-    var link = document.createElement( 'link' );
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://revealjs.com/css/print/pdf.css' : 'https://revealjs.com/css/print/paper.css';
-    document.getElementsByTagName( 'head' )[0].appendChild( link );
-  </script>
-  <!--[if lt IE 9]>
-  <script src="https://revealjs.com/lib/js/html5shiv.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" href="../../reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="../../reveal.js/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../../reveal.js/dist/theme/solarized.css" id="theme">
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
+<section id="title-slide">
+  <h1 class="title">Intro to Git and Github</h1>
+</section>
 
-<section><section id="part-1-intro-to-git-and-github" class="titleslide slide level1"><h1>Part 1: Intro to Git and Github</h1></section><section class="slide level2">
+<section>
+<section id="part-1-intro-to-git-and-github" class="title-slide slide level1">
+<h1>Part 1: Intro to Git and Github</h1>
+
+</section>
+<section class="slide level2">
 
 <h4 id="learning-objectives">Learning objectives</h4>
 <ul>
@@ -38,35 +44,41 @@
 <li>Automatically generate websites, documents and presentations from simple text files.</li>
 <li>The pros and cons of using Git as a tool to manage, organize, and collaborate on the deployment of courses.</li>
 </ul>
-</section><section id="introductions" class="slide level2">
-<h1>Introductions</h1>
+</section>
+<section id="introductions" class="slide level2">
+<h2>Introductions</h2>
 <p>Please introduce yourself to the person sitting next to you, sharing your position and area of study or research.</p>
 <p>Then we will go around the room and each person will introduce the person they just met.</p>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <h3 id="what-are-git-and-github">What are Git and Github</h3>
 <ul>
 <li><p>Git is a software tool for collaborative software development. It has a command line interface and can also be used with cloud platforms like Github (see below). It tracks all changes made to files and can merge changes made separately by different people.</p></li>
 <li><p>Github is a web platform owned by Microsoft that hosts Git projects and provides complementary tools.</p></li>
 </ul>
-</section><section id="sign-up-for-github" class="slide level2">
-<h1>Sign up for Github</h1>
+</section>
+<section id="sign-up-for-github" class="slide level2">
+<h2>Sign up for Github</h2>
 <p>Please make an account at <a href="https://github.com/" class="uri">https://github.com/</a>.</p>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <h3 id="using-git-and-github">Using Git and Github</h3>
 <ul>
 <li><p>If you have Git already installed on your computer, please feel free to use it if you feel comfortable.</p></li>
 <li><p>If you do not have Git installed, everything can be done on the cloud using Github.</p></li>
 </ul>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <h3 id="git-definitions">Git definitions</h3>
 <ul>
 <li><strong>repository</strong> : a directory of files tracked by Git</li>
-<li><strong>fork</strong> : a copy of someone else's repository in your Github account</li>
+<li><strong>fork</strong> : a copy of someone else’s repository in your Github account</li>
 </ul>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <h3 id="git-steps-and-terms">Git steps and terms</h3>
 <ul>
@@ -75,27 +87,31 @@
 <li><strong>git push</strong> : transfer your local changes to a remote repository like Github (backup)</li>
 <li><strong>git pull</strong> : transfer any remote changes on Github to your computer.</li>
 </ul>
-</section><section id="github-features" class="slide level2">
-<h1>Github features</h1>
+</section>
+<section id="github-features" class="slide level2">
+<h2>Github features</h2>
 <p><a href="https://github.com/massma/ltf-github-website-courses" class="uri">https://github.com/massma/ltf-github-website-courses</a></p>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
-<h3 id="how-can-githubs-features-be-useful-or-painful-for-deploying-and-organizing-course-materials">How can Github's features be useful (or painful) for deploying and organizing course materials?</h3>
+<h3 id="how-can-githubs-features-be-useful-or-painful-for-deploying-and-organizing-course-materials">How can Github’s features be useful (or painful) for deploying and organizing course materials?</h3>
 <ul>
 <li>Take a moment to write a few thoughts down on your own, in your text editor or on scrap paper (1 min)</li>
 <li>Share your thoughts with the person next to you (3 min)</li>
 <li>Group discussion (3-5 min)</li>
 </ul>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
-<h3 id="lets-collaborate-on-this-workshop">Let's collaborate on this workshop</h3>
+<h3 id="lets-collaborate-on-this-workshop">Let’s collaborate on this workshop</h3>
 <ol type="1">
 <li>Fork the <a href="https://github.com/massma/ltf-github-website-courses">repository</a>.</li>
 <li>Enable Github pages</li>
 <li>On your version of the repository, edit workshop files (*.md) to improve the workshop on Github.</li>
 <li>Or, if you installed Git you can clone your version of the repository to your local computer and edit with your text editor of choice. Recommended if you plan on using these tools a lot.</li>
 </ol>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 <h3 id="ideas-for-contributions">Ideas for contributions</h3>
 <ul>
@@ -104,33 +120,41 @@
 <li>Open an issue if something was confusing but you do not know how to fix it.</li>
 <li>Add content to the <a href="https://massma.github.io/ltf-github-website-courses/index.html">main website</a>, or to some initial websites hosting resources for <a href="https://massma.github.io/ltf-github-website-courses/index.html">EEAE students</a> and <a href="https://massma.github.io/ltf-github-website-courses/sample-websites/water-center-resources.html">Water Center people</a>.</li>
 </ul>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
-<h3 id="lets-merge-our-changes">Let's merge our changes</h3>
+<h3 id="lets-merge-our-changes">Let’s merge our changes</h3>
 <ul>
 <li>Submit a pull request to my original repository, which will request to add your changes.</li>
 <li>I will then re-generate content with pandoc (next presentation)</li>
 </ul>
-</section><section class="slide level2">
+</section>
+<section class="slide level2">
 
 </section></section>
     </div>
   </div>
 
-  <script src="https://revealjs.com/lib/js/head.min.js"></script>
-  <script src="https://revealjs.com/js/reveal.js"></script>
+  <script src="../../reveal.js/dist/reveal.js"></script>
+
+  // reveal.js plugins
+  <script src="../../reveal.js/plugin/notes/notes.js"></script>
+  <script src="../../reveal.js/plugin/search/search.js"></script>
+  <script src="../../reveal.js/plugin/zoom/zoom.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
-      // https://github.com/hakimel/reveal.js#configuration
+      // https://revealjs.com/config/
       Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
 
-        // Optional reveal.js plugins
-        dependencies: [
-          { src: 'https://revealjs.com/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'https://revealjs.com/plugin/zoom-js/zoom.js', async: true },
-          { src: 'https://revealjs.com/plugin/notes/notes.js', async: true }
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
         ]
       });
     </script>

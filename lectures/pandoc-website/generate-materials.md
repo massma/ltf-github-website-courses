@@ -1,3 +1,6 @@
+---
+title: Generate course materials from Markdown using Pandoc
+---
 Generate course materials from [Markdown](https://en.wikipedia.org/wiki/Markdown) using [Pandoc](https://pandoc.org/)
 =====================================================================================================================
 
