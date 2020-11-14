@@ -1,6 +1,5 @@
 Dynamic Water Center Page and Resources
 =======================================
-
 People
 ------
 
